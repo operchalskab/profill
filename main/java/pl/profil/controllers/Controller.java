@@ -20,7 +20,7 @@ public class Controller {
         gruntyS = tworzListeSp();
     }
 
-    @GetMapping("iteracjaNs")
+    @GetMapping("iteracja")
     public String iteracjaGr(Model model) {
         model.addAttribute("listaGrNs", gruntyNs);
         model.addAttribute("listaGrS", gruntyS);
